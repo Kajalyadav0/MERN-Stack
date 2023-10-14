@@ -2,7 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import  React , { useState } from "react";
 import { Link } from "react-router-dom";
 
-export default function SignUp() {
+export default function test() {
     const [formData, setFormData] = useState({});
     const [error, setError] = useState(null);
     const [loading, setLoading] = useState(false);
@@ -45,6 +45,7 @@ export default function SignUp() {
             setError(error.message);
         }
     };
+    
     return (
         <div className="p-3 max-w-lg mx-auto">
             <h1 className="text-3xl text-center font-sans font-semibold my-7 uppercase">
